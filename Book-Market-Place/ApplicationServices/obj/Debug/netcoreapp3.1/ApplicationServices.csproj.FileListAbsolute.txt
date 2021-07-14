@@ -1,0 +1,12 @@
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\obj\Debug\netcoreapp3.1\ApplicationServices.csprojAssemblyReference.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\obj\Debug\netcoreapp3.1\ApplicationServices.AssemblyInfoInputs.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\obj\Debug\netcoreapp3.1\ApplicationServices.AssemblyInfo.cs
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\bin\Debug\netcoreapp3.1\ApplicationServices.deps.json
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\bin\Debug\netcoreapp3.1\ApplicationServices.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\bin\Debug\netcoreapp3.1\ApplicationServices.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\obj\Debug\netcoreapp3.1\ApplicationServices.csproj.CoreCompileInputs.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\obj\Debug\netcoreapp3.1\ApplicationServices.csproj.CopyComplete
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\obj\Debug\netcoreapp3.1\ApplicationServices.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\ApplicationServices\obj\Debug\netcoreapp3.1\ApplicationServices.pdb

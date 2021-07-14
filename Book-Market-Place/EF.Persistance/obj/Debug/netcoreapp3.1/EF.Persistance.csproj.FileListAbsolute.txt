@@ -1,0 +1,17 @@
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\ApplicationServices.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.csprojAssemblyReference.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.AssemblyInfoInputs.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.AssemblyInfo.cs
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\EF.Persistance.deps.json
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\EF.Persistance.runtimeconfig.json
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\EF.Persistance.runtimeconfig.dev.json
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\EF.Persistance.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\EF.Persistance.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\ApplicationServices.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.csproj.CoreCompileInputs.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.csproj.CopyComplete
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\EF.Persistance\obj\Debug\netcoreapp3.1\EF.Persistance.genruntimeconfig.cache

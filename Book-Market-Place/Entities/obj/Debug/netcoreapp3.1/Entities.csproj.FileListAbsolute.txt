@@ -1,0 +1,9 @@
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
