@@ -3,7 +3,9 @@ using ApplicationServices.Services;
 using AutoMapper;
 using BookMarketPlaceWebAPI.Validators;
 using Entities.POCOEntities;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
@@ -23,7 +25,7 @@ namespace BookMarketPlaceWebAPI.Controllers
             this.bookServices = bookServices;
 
             this.mapper = mapper;
-           
+
         }
 
         [HttpDelete]
@@ -88,19 +90,18 @@ namespace BookMarketPlaceWebAPI.Controllers
         {
             var queryResponse = bookServices.GetQuery();
 
-            var sameBook = queryResponse.Where<Book>(book => book.IsOld == entity.IsOld && book.Title == entity.Title &&
-            book.PublishDate == entity.PublishDate && book.Price == entity.Price && entity.AutherName == book.AutherName).FirstOrDefault();
+
+            var sameBook = queryResponse.Where<Book>(book => book.IsOld == entity.IsOld && book.Title == entity.Title
+             && book.Price == entity.Price && entity.AutherName == book.AutherName && DateTime.Equals(entity.PublishDate, book.PublishDate)).FirstOrDefault();
 
             if (sameBook != null)
             {
                 return BadRequest("این کتاب از قبل در پایگاه داده وجود دارد");
             }
 
-            //BookDTO bookDTO = new BookDTO();
-
             //BookValidator bookValidator = new BookValidator();
 
-            //ValidationResult result = validations.Validate(bookDTO);
+            //ValidationResult results = bookValidator.Validate(entity);
 
             //if (results.IsValid)
             //{
@@ -117,7 +118,7 @@ namespace BookMarketPlaceWebAPI.Controllers
         {
             var queryResponse = bookServices.GetQuery();
 
-            var sameBook = queryResponse.Where<Book>(book => book.ID == entity.ID);
+            var sameBook = queryResponse.Where<Book>(book => book.ID == entity.ID);//.FirstOrDefault()
 
             if (sameBook == null)
             {

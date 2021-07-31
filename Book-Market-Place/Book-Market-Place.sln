@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF.Persistance", "EF.Persis
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookMarketWebAPI", "BookMarketWebAPI", "{312B1C99-5893-4021-A808-15E506E5DF12}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RazorPages", "RazorPages", "{0A57F199-33C8-4DBD-BC96-A17878038CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMarketRazorPages", "BookMarketRazorPages\BookMarketRazorPages.csproj", "{BFD71865-5DAE-404D-93C6-CC7761137AB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{E29CD9D4-3C9C-4008-81E2-F6D24FFE9CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E29CD9D4-3C9C-4008-81E2-F6D24FFE9CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29CD9D4-3C9C-4008-81E2-F6D24FFE9CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD71865-5DAE-404D-93C6-CC7761137AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD71865-5DAE-404D-93C6-CC7761137AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD71865-5DAE-404D-93C6-CC7761137AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD71865-5DAE-404D-93C6-CC7761137AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{903CB72E-B64B-4C2B-8F10-35359C0605AC} = {E7AD9BBC-9E5C-446F-B7F1-841854F485C1}
 		{EE6031D9-DE74-4F8E-9F84-773DC8B6E55B} = {E7AD9BBC-9E5C-446F-B7F1-841854F485C1}
 		{E29CD9D4-3C9C-4008-81E2-F6D24FFE9CCA} = {287A5977-5AA8-4659-AD8F-154E9FAA8281}
+		{BFD71865-5DAE-404D-93C6-CC7761137AB7} = {0A57F199-33C8-4DBD-BC96-A17878038CB9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C56EED1B-E390-4844-ACDB-0F3B44C45917}

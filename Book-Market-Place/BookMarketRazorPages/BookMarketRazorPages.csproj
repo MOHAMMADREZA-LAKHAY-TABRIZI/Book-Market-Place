@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\.vscode\launch.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookMarketPlaceWebAPI\BookMarketPlaceWebAPI.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,4 +1,6 @@
-﻿namespace Entities.POCOEntities
+﻿using System;
+
+namespace Entities.POCOEntities
 {
     public class Book : BaseEntity.BaseEntity
     {
@@ -8,7 +10,7 @@
 
         public string AutherName { get; set; }
 
-        public string PublishDate { get; set; }
+        public DateTime PublishDate { get; set; }
 
         public short PublishCount { get; set; }
 
