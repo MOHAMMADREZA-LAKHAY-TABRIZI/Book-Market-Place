@@ -1,6 +1,4 @@
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.csprojAssemblyReference.cache
-D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.csproj.CoreCompileInputs.cache
-D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.MvcApplicationPartsAssemblyInfo.cache
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.RazorAssemblyInfo.cache
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.RazorAssemblyInfo.cs
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.AssemblyInfoInputs.cache
@@ -146,7 +144,6 @@ D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazor
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\bin\Debug\netcoreapp3.1\ApplicationServices.pdb
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\bin\Debug\netcoreapp3.1\EF.Persistance.pdb
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\bin\Debug\netcoreapp3.1\Entities.pdb
-D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.MvcApplicationPartsAssemblyInfo.cs
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.TagHelpers.input.cache
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.TagHelpers.output.cache
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.RazorCoreGenerate.cache
@@ -167,3 +164,9 @@ D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazor
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.pdb
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.genruntimeconfig.cache
 D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\Razor\Pages\SalemanControlPanelPage.cshtml.g.cs
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.csproj.CoreCompileInputs.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.MvcApplicationPartsAssemblyInfo.cs
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\BookMarketRazorPages.MvcApplicationPartsAssemblyInfo.cache
+D:\Bamdad-Book Markret Place\Book-Market-Place\Book-Market-Place\BookMarketRazorPages\obj\Debug\netcoreapp3.1\Razor\Pages\Partials\NavBarPage.cshtml.g.cs

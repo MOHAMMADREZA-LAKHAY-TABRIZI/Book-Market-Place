@@ -99,16 +99,20 @@ namespace BookMarketPlaceWebAPI.Controllers
                 return BadRequest("این کتاب از قبل در پایگاه داده وجود دارد");
             }
 
-            //BookValidator bookValidator = new BookValidator();
+            BookValidator bookValidator = new BookValidator();
 
-            //ValidationResult results = bookValidator.Validate(entity);
+            var results = bookValidator.Validate(entity);
 
-            //if (results.IsValid)
-            //{
-            await bookServices.Insert(entity);
+            if (results.IsValid)
+            {
+                await bookServices.Insert(entity);
 
-            return Ok("دستور با موفقیت اجرا شد");
-            //}
+                return Ok("دستور با موفقیت اجرا شد");
+            }
+            else
+            {
+                return BadRequest();
+            }
 
         }
 
@@ -125,9 +129,21 @@ namespace BookMarketPlaceWebAPI.Controllers
                 return BadRequest("این کتاب از قبل در پایگاه داده وجود ندارد");
             }
 
-            await bookServices.Update(entity);
+            BookUpdateValidator validations = new BookUpdateValidator();
 
-            return Ok("دستور با موفقیت اجرا شد");
+            var result = validations.Validate(entity);
+
+            if (result.IsValid)
+            {
+                await bookServices.Update(entity);
+
+                return Ok("دستور با موفقیت اجرا شد");
+            }
+
+            else
+            {
+                return BadRequest();
+            }
         }
 
 

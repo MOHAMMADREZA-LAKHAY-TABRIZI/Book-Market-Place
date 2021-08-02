@@ -1,6 +1,7 @@
 ﻿using ApplicationServices.DTO;
 using ApplicationServices.Services.BookStoreServices;
 using AutoMapper;
+using BookMarketPlaceWebAPI.Validators;
 using Entities.POCOEntities;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -90,9 +91,21 @@ namespace BookMarketPlaceWebAPI.Controllers
                 return BadRequest("این فروشگاه از قبل در پایگاه داده وجود دارد");
             }
 
-            await bookStoreService.Insert(entity);
+            BookStoreValidator validations = new BookStoreValidator();
 
-            return Ok("دستور با موفقیت اجرا شد");
+            var result = validations.Validate(entity);
+
+            if (result.IsValid)
+            {
+                await bookStoreService.Insert(entity);
+
+                return Ok("دستور با موفقیت اجرا شد");
+            }
+
+            else
+            {
+                return BadRequest();
+            }
 
         }
 
@@ -109,9 +122,21 @@ namespace BookMarketPlaceWebAPI.Controllers
                 return BadRequest("این فروشگاه از قبل در پایگاه داده وجود ندارد");
             }
 
-            await bookStoreService.Update(entity);
+            BookStoreUpdateValidator validations = new BookStoreUpdateValidator();
 
-            return Ok("دستور با موفقیت اجرا شد");
+            var result = validations.Validate(entity);
+
+            if (result.IsValid)
+            {
+                await bookStoreService.Update(entity);
+
+                return Ok("دستور با موفقیت اجرا شد");
+            }
+
+            else
+            {
+                return BadRequest();
+            }
         }
 
 

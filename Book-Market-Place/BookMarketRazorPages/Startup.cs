@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApplicationServices.Mapper;
 using ApplicationServices.Services;
 using ApplicationServices.Services.BookCategoryServices;
 using ApplicationServices.Services.BookStoreServices;
@@ -12,6 +13,7 @@ using Entities.IUnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -30,19 +32,23 @@ namespace BookMarketRazorPages
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddScoped(typeof(IRepositories<>), typeof(Repositories<>));
+            services.AddScoped(typeof(IRepositories<>), typeof(Repositories<>));//??
 
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            //services.AddScoped<IBookServices, BookServices>();
+            services.AddScoped<IBookServices, BookServices>();
 
-            //services.AddScoped<IBookCategoryService, BookCategoryService>();
+            services.AddScoped<IBookCategoryService, BookCategoryService>();
 
-            //services.AddScoped<IBookStoreService, BookStoreService>();
+            services.AddScoped<IBookStoreService, BookStoreService>();
 
-            // services.AddDbContext<BookMarketPlaceDBContex>(database => database.UseSqlServer(Configuration.GetConnectionString("BookMarketPlace")));
+            services.AddAutoMapper(typeof(BookStoreMapper));
 
+            services.AddAutoMapper(typeof(BookCategoryMapper));
 
+            services.AddAutoMapper(typeof(BooKMapper));
+
+            services.AddDbContext<BookMarketPlaceDBContex>(database => database.UseSqlServer(Configuration.GetConnectionString("BookMarketPlace")));
 
             services.AddRazorPages();
         }
