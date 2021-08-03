@@ -98,7 +98,7 @@ namespace BookMarketPlaceWebAPI.Controllers
             {
                 return BadRequest("این کتاب از قبل در پایگاه داده وجود دارد");
             }
-
+            //Fluent Validations
             BookValidator bookValidator = new BookValidator();
 
             var results = bookValidator.Validate(entity);
@@ -111,6 +111,7 @@ namespace BookMarketPlaceWebAPI.Controllers
             }
             else
             {
+               
                 return BadRequest();
             }
 
